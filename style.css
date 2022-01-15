@@ -143,7 +143,9 @@ button:hover {
     width: 50%;
     margin-top: 10px;
   }
-
+  .div-2 > h1 {
+    margin-left: 70px;
+  }
   .products {
     grid-template-columns: repeat(1, 1fr);
     width: 70%;
@@ -158,27 +160,28 @@ button:hover {
     justify-content: center;
   }
   .section-4 > .see-more {
-    margin-left: 250px;
+    margin-left: 230px;
   }
   .subscription-title > h1 {
-    margin-left: 50px;
+    margin-left: 70px;
   }
   .subscription-title > p {
-    margin-left: 50px;
+    font-size: 1em;
+    margin-left: 70px;
   }
   .subscription-input {
-    margin-left: 50px;
+    margin-left: 70px;
   }
   .subscription-input > h1 {
     margin-left: 0px;
   }
   .footer-title {
     width: 70%;
-    margin-left: 50px;
+    margin-left: 70px;
   }
   .footer-social {
     width: 70%;
-    margin-left: 50px;
+    margin-left: 70px;
   }
   .footer-social > .rights,
   .icons {
