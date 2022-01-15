@@ -192,5 +192,78 @@ button:hover {
   }
   body {
     width: 100%;
+    margin: 0;
+  }
+}
+
+/*--------------------------
+ media query for tab 
+ ----------------------------*/
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  .journey {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .journey-title > h1 {
+    font-size: 100%;
+  }
+  .journey-title > p {
+    font-size: 100%;
+  }
+  .journey-image > img {
+    width: 50%;
+    margin-top: 10px;
+  }
+  .div-2 > h1 {
+    margin-left: 70px;
+  }
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    justify-content: center;
+  }
+
+  .section-4 {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-4 > .see-more {
+    margin-left: 500px;
+  }
+  .subscription-title > h1 {
+    margin-left: 70px;
+  }
+  .subscription-title > p {
+    font-size: 1em;
+    margin-left: 70px;
+  }
+  .subscription-input {
+    margin-left: 70px;
+  }
+  .subscription-input input {
+    margin-left: 0px;
+  }
+  .subscription-input > h1 {
+    margin-left: 0px;
+  }
+  .footer-title {
+    width: 70%;
+    margin-left: 70px;
+  }
+  .footer-social {
+    width: 70%;
+    margin-left: 70px;
+  }
+  .footer-social > .rights,
+  .icons {
+    margin-left: 10px;
+  }
+  body {
+    width: 100%;
+    margin: 0;
   }
 }
