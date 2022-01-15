@@ -172,6 +172,9 @@ button:hover {
   .subscription-input {
     margin-left: 70px;
   }
+  .subscription-input input {
+    margin-left: 0px;
+  }
   .subscription-input > h1 {
     margin-left: 0px;
   }
